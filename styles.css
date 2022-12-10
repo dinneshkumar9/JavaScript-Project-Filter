@@ -1,0 +1,67 @@
+*{
+    
+    background: black;
+    color: white;
+}
+
+#heading{
+    font-size: 25px;
+    margin: 20px;
+    
+}
+
+select{
+    border: 2px solid white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+#pro{
+    margin: 20px;
+    
+}
+
+#alert{
+    /* display: none; */
+    margin: 20px;
+    color: red;
+    font-size: larger;
+}
+
+.developer{
+    display: flex;
+    border: 1px solid white;
+    justify-content:space-between;
+    max-width: 500px;
+    margin: 20px;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+
+
+.admin{
+    display: flex;
+    border: 1px solid white;
+    justify-content:space-between;
+    max-width: 500px;
+    margin: 20px;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+button{
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 40px;
+    background: white;
+    color: black;
+}
+
+button:hover{
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
