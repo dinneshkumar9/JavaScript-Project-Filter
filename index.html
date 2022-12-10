@@ -5,49 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Filter UI cards</title>
+    <title>List and filter</title>
 </head>
 <body>
     
-        <!-- UI cards with filters -->
-        <div id="heading">Filter ui cards via their profession.</div>
-
-        
-        <!-- there are two professions - developer and admin. One must be selected to get the details -->
-        <div id="pro"><select name="profession">
-            <option disabled selected>Profession</option>
-            <option value="developer">developer</option>
-            <option value="admin">admin</option>
+    <div id="container">
+        <h1>Filter ui cards via their profession.</h1>
+        <select id="profession-select" class="profession-select">
+          <option value="">Select a profession</option>
+          <option value="Developer">Developer</option>
+          <option value="Admin">Admin</option>
         </select>
-    </div>
-        <!-- this is alerts the user and asks them to select any profession to proceed -->
-        <div><p id="alert">ALERT ! Please select a profession before clicking the filter button.</p></div>
-
-        <!-- Details of selected profession -->
-        <div class="container">   
-        <div class="developer">
-            <div id="1">1. </div>
-            <div id="name">Name : John </div>
-            <div id="profession">Profession : Developer</div>
-            <div id="age">Age : 18</div>
-        </div>
-        <div class="developer">
-            <div id="2">2. </div>
-            <div id="name">Name : Jack </div>
-            <div id="profession">Profession : Developer</div>
-            <div id="age">Age : 20</div>
-        </div>
-        <div class="admin">
-            <div id="1">1. </div>
-            <div id="name">Name : Karen </div>
-            <div id="profession">Profession : Admin</div>
-            <div id="age">Age : 19</div>
-        </div>
-    </div>
-        <!-- Filter button -->
-        <button id="filter" type="button">Filter</button>
-    
-
+        <div id="card-container"></div>
+        <button id="filter-button" class="filter-button">Filter</button>
+      </div>
+  
 
     <script src="script.js"></script>
 </body>
